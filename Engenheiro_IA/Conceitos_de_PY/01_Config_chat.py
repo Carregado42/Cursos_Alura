@@ -13,10 +13,7 @@ client = genai.Client(api_key=api_key)
 chat = client.chats.create(model="gemini-2.5-flash")
 
 
-# Faz uma pergunta
-resposta = chat.send_message("Quanto é 2 + 5 * 3")
 
-print(resposta.text)
-
-
-
+#Pergunta
+pergunta = chat.send_message("pergunta que quero fazer")
+print(pergunta.text)
