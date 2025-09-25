@@ -38,3 +38,9 @@
 
 
 
+
+
+### Dicionarios
+    Dicionario = [chave:value]
+
+    
