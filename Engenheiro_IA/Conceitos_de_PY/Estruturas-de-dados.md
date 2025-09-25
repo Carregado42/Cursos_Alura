@@ -13,16 +13,28 @@
 
     lista[:3]                           - Do inicio até ao 3
 
-    lista.append("novo")                - Adiciona um elemento novo na lista
+    ---------------------------------- Adicionar elementos ----------------------------------
+        lista = ["um", "pedro"]
+        lista2 = ["items de outra lista" ]
+
+        lista.append("novo")                - Adiciona um elemento novo na lista        # ["um", "pedro", "novo"]
     
-    lista.append(["item1","item2"])     - Adiciona uma lista dentro de outra
+        lista.append(["item1","item2"])     - Adiciona uma lista dentro de outra        # ["um", "dois", ['item1','item2']]
     
-    lista.extend(lista2)                - Adicionar elementos de uma lista a outra
+        lista.extend(lista2)                - Adicionar elementos de uma lista a outra  # ["um", "pedro", "items de outra lista" ]
+    
+    ---------------------------------- Remove elementos ----------------------------------
+        lista = [1, 2, 3, 4, 5]
+
+        lista.remove("3")   - Remove um elemento defenido # [1, 2, 4, 5]
+
+        lista.pop(2)        - Remove uma posição # [1, 2, 4, 5]
+        
+        lista.remove(2)     - Remove o primeiro valor defenido # [1, 3, 4, 5] 
+
+        lista.clear()       - Apaga toda a lista  # [] 
 
 
 
-
-
-    lista.replace(lista[2],"replace")
 
 
