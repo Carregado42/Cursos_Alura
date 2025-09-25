@@ -1,0 +1,32 @@
+lista=["python", "código", "segurança", "rede", "criptografia", "dados", "função", "algoritmo", "programa", "sistema"]
+lista2=["ze","miguel","monica"]
+# Len contagem de elementos da lista 
+print("O comando len diz nos o tamanhano da lista. ", len(lista))
+
+print("Para saber o ultimo elemento podemos apenas usar (lista[len(lista)-1]) ou lista[-1] o resultado é: ", (lista[len(lista)-1]), lista[-1])
+
+#Dividindo a lista 
+print(f"Primeira forma: {lista[1:3]} segunda forma {lista[:3]}")
+
+
+#Adicionar elementos na lista 
+lista.append("novoitem")
+print(lista)
+
+#Adicionar uma lista noutra lista extend
+lista.extend(lista2)
+print(lista)
+
+#Adiciona uma lista no elemento de outra lista 
+lista.append(["novoitem","isto e uma lista dentro de outra lista"])
+
+#Procura dentro da lista que esta dentro da lista 
+print(lista[14][1])
+
+
+
+
+#Supstituir um elemento
+#lista.replace(lista[2],"replace")
+
+

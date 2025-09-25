@@ -9,11 +9,14 @@ while n<=10:
 print("\n##############################\n")
 
 
+'''     ## Exercicio ##
+Somar 1 valor ás notas 
+Se passar dos 10 não soma nenhum valor 
+'''
+
 lista_nomes=["Lucas", "Rafael", "Mariana", "Beatriz", "João"]
 lista_medias=[8.9, 7.5,4.2,1.4,9.5]
 
-#Somar 1 valor ás notas 
-#Se passar dos 10 não somo nenhum valor 
 n=0
 while n < 5:
     if lista_medias[n] <=9:
