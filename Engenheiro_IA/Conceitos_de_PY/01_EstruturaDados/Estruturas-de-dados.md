@@ -35,12 +35,24 @@
         lista.clear()       - Apaga toda a lista  # [] 
 
 
-
-
-
-
-
-### Dicionarios
+### Dicionarios identificados por {}
     Dicionario = [chave:value]
+    dicionario = {"pedro":10, "monica":14, "joao":18} 
+
+    ----------------------------------- Procurar -----------------------------------   
+    dicionario[chave]           # Value referente á chave procurada
+
+    dicionario.get(joao)        # Se estiver na lista retorna o value referente
+
+    dicionario.items()          # Mostra todos os items 
+    
+    dicionario.keys()           # Mostra todos as chaves 
+
+    dicionario.values()         # Mostra todos as values 
+
+    ----------------------------------- Remover -----------------------------------  
+    dicionario.pop("value") #Remove TODOS os elementos em que a chave seja joao
+
+
 
     
