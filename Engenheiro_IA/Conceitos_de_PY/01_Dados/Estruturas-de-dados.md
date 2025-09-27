@@ -35,7 +35,7 @@
         lista.clear()       - Apaga toda a lista  # [] 
 
 
-### Dicionarios identificados por {}
+### Dicionarios identificados por {} , podemos inserir dicionarios dentro de listas
     Dicionario = [chave:value]
     dicionario = {"pedro":10, "monica":14, "joao":18} 
 
