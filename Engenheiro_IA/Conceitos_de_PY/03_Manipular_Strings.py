@@ -1,6 +1,6 @@
 #Totodo o texto para minusculas 
-texto="      COMO alterar O TIpo de letra ENTRE low and HIgh case        "
-print(texto)
+texto="      MANIPULANDO E alterar O TIpo     da frase COM QUe     se esta a TRAbalhar        "
+#print(texto)
 #Print tudo em minusculas
 #print(texto.lower())
 
@@ -13,5 +13,11 @@ print(texto)
 #Substituir 
 #print(texto.replace("alterar","modificar"))
 
+#Separar as palavras
+lista_de_palavras=texto.lower().split()
+
+#Junta as palavras depois de lhes fazer um split
+print(" ".join(lista_de_palavras))
+
 #Podemos juntar todos os metodos
-print(texto.lower().strip().replace("alterar","modificar"))
+#print(texto.lower().strip().replace("alterar","modificar"))
