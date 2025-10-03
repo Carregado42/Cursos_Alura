@@ -86,3 +86,8 @@
 
     ----------------------------------- Remover -----------------------------------  
     dicionario.pop("value") #Remove TODOS os elementos em que a chave seja joao
+
+# Docstring """ documentação """
+    
+    Usada logo a baixo de uma class ou funçao 
+    Serve para documentar a funcionalidade 
