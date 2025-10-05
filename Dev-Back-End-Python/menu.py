@@ -1,19 +1,6 @@
 import os
 
-utilizadores=[]
-
-
-def menu():
-    print("""
-    1- Registo
-    2- Ver utilizadores
-    3- Sair \n""")
-
-def voltar_menu_principal ():
-
-    input("\nClique numa tecla para voltar ao menu ")
-    main()
-
+utilizadores=["pedro", "Filipe"]
 
 def efetuar_registo():
     """Isto é uma docstring
@@ -23,7 +10,6 @@ def efetuar_registo():
             - Nome Utilizador
 
         Output:
-
     """
     nome_utilizador=input("\nNome de utilizador: ")
     print(f"Olá {nome_utilizador}!\n")
@@ -31,17 +17,33 @@ def efetuar_registo():
     voltar_menu_principal()
 
 def visualizar_utilizadores():
+    """Função qpara verificar os utilizadores registados 
+        Input:
+
+        Output:
+            Utilizadores
+    """
     print(utilizadores)
     voltar_menu_principal()
 
 def finalizar_programa():
+
     print("A sair do programa")
 
 def opcao_invalida():
     input("Opcao invalida\n")
     voltar_menu_principal()
 
-def escolher_opcoes():
+
+
+
+def menu():
+    print("""
+    1- Registo
+    2- Ver utilizadores
+    3- Sair
+    \n""")
+
     try:
         escolha_opcao=(int(input("Escolha a sua opçao: ")))
 
@@ -57,12 +59,18 @@ def escolher_opcoes():
         opcao_invalida()
 
 
+def voltar_menu_principal ():
+
+    input("\nClique numa tecla para voltar ao menu ")
+    main()
+
+
+
 
 def main():
     #os.system("cls") #windows
     os.system("clear") #Mac
     menu()
-    escolher_opcoes()
 
 if __name__ == '__main__':
     main()
